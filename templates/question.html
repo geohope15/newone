@@ -16,12 +16,6 @@
            { 
               background-color: #004d40; 
            } 
-		   #hello{
-		   font-size:20px;
-		   }
-		   #hello2{
-		   font-size:18px;
-		   }
    
          body  
            { 
@@ -56,13 +50,23 @@
 				  padding: 0 0px;
 				  font-size:18px;
 				}
-</style> 
+				.mdl-layout__header-row .mdl-navigation__link
+	  {
+	  display:block;color:#fff;
+	  line-height:64px;
+	  padding:0 8px;
+	  }
+				
+
+
+</style>
+
 
    </head> 
         <div class="demo-layout-transparent mdl-layout mdl-js-layout"></div>	
 			<main class="mdl-layout__content">
 			<div class="mdl-layout__header-row mdl-layout--small-screen-only mdl-color--blue"> 
-              <span class="mdl-layout-title">Questions</span> 
+              <span class="mdl-layout-title">Questions and Answers</span> 
             </div> 
               <span class="mdl-layout-title">
 		
@@ -73,24 +77,61 @@
 		</div>
 	</span>
 	<div class="page-content">
-	<div >
-	<p class="left" id="hello">Question 1</p>
-	<br>
-	<p class="center">How do I built my own language tool app?</p>
+      
+	<div class=" center row">   
+  	<div class="col s10">
+       <div class="card-content
+	   <div>
+		<p class="left" id="hello">Question 1</p>
+		<br>
+		<p class="center">Choose a design layout,customize it to fit your needs.<br></p></p>
+       </div>
+	   <hr>
+	   <div>
+		<p class="left" id="hello">Answer 1</p>
+		<br>
+		<p class="center">Choose a design layout,customize it to fit your needs.<br></p></p>
+       </div>
+	   
+		</div>
 	</div>
-	<br>
-	<div >
-	<p class="left" id="hello2">Question 2</p>
-	<br>
-	<p class="center">How can wwe convert one language to another language?</p>
 	</div>
-	<br>
-	<div >
-	<p class="left">Question 3</p>
-	<br>
-	<p class="center">Does language create reality?</p>
+	<div class=" center row">   
+  	<div class="col s10">
+       <div class="card-content
+	   <div>
+		<p class="left" id="hello">Question 2</p>
+		<br>
+		<p class="center">Choose a design layout,customize it to fit your needs.<br></p></p>
+       </div>
+	   <hr>
+	   <div>
+		<p class="left" id="hello">Answer 2</p>
+		<br>
+		<p class="center">Choose a design layout,customize it to fit your needs.<br></p></p>
+       </div>
+	   
+		</div>
 	</div>
-         
+	</div>
+	<div class=" center row">   
+  	<div class="col s10">
+       <div class="card-content
+	   <div>
+		<p class="left" id="hello">Question 3</p>
+		<br>
+		<p class="center">Choose a design layout,customize it to fit your needs.<br></p></p>
+       </div>
+	   <hr>
+	   <div>
+		<p class="left" id="hello">Answer 3</p>
+		<br>
+		<p class="center">Choose a design layout,customize it to fit your needs.<br></p></p>
+       </div>
+	   
+		</div>
+	</div>
+	</div>
 	</div>
        </main> 
  <script src="{{url_for('static',filename='js/material.min.js')}}" ></script>
@@ -98,5 +139,4 @@
         </div> 
    </body> 
         </html> 
-
 
