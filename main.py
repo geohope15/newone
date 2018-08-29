@@ -113,7 +113,7 @@ def question():
 	
 @app.route("/answer")
 def question():
-    return render_template("answer.html")
+    return render_template("question.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
