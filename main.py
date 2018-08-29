@@ -112,7 +112,7 @@ def question():
     return render_template("question.html")
 	
 @app.route("/answer")
-def answer():
+def question():
     return render_template("answer.html")
 
 if __name__ == "__main__":
