@@ -110,8 +110,8 @@ def contact():
 def question():
     return render_template("question.html")
 
-@app.route("/about")
-def about():
+@app.route("/about1")
+def about1():
     return render_template("about1.html")
 	
 @app.route("/howitwork1")
