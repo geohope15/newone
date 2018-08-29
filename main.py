@@ -1,4 +1,3 @@
-
 from flask import Flask , render_template, request, jsonify
 import Uni_To_Zg
 import Zg_To_Uni
@@ -110,6 +109,27 @@ def contact():
 @app.route("/question")
 def question():
     return render_template("question.html")
+
+@app.route("/about")
+def about():
+    return render_template("about1.html")
+	
+@app.route("/howitwork1")
+def howitwork1():
+    return render_template("howitwork1.html")
+	
+@app.route("/resources1")
+def resources1():
+    return render_template("resources1.html")
+
+@app.route("/contact1")
+def contact1():
+    return render_template("contact1.html")
+	
+@app.route("/question1")
+def question1():
+    return render_template("question1.html")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
