@@ -110,10 +110,6 @@ def contact():
 @app.route("/question")
 def question():
     return render_template("question.html")
-	
-@app.route("/answer")
-def question():
-    return render_template("question.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
