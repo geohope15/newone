@@ -18,7 +18,7 @@
            } 
 		   p
 		   {
-		   font-size:23px;
+		   font-size:18px;
 		   }
 		.mdl-layout__header-row .mdl-navigation__link
 	  {
@@ -62,14 +62,20 @@
 				}
 				 .container
 {
-background-color:#424242;
+background-color:#2196f3;
 }
+.mdl-mega-footer
+{
+background-color:#2196f3;
+}
+
 				
 </style> 
 
    </head> 
         <div class="demo-layout-transparent mdl-layout mdl-js-layout"></div>	
 			<main class="mdl-layout__content">
+			
               <span class="mdl-layout-title">
 		
 		  <div class="mdl-layout--large-screen-only mdl-layout__header-row mdl-color--blue" id="hello">
@@ -77,54 +83,35 @@ background-color:#424242;
 			<a class="mdl-navigation__link" href="{{url_for('home')}}">Back</a>
 						
 		</div>
-	</span>
-	<div class="page-content">
+			</span>
 	<div class="row">
     <div class="col s12 m12">
-      <div class="card white">
+      <div class="card blue">
         <div class="card-content black-text">
 		<p class="center" style="font-size:25px;">About</P>
 		</div>
 		</div>
 		</div>		
-		</div>
-    <div class="row">
+</div>
+ <div class="row">
     <div class="col s12 m12">
-	<div class="card white">
-        <div class="card-content black-text">
-      <p>There are a total hundred languages spoken by the people living in Myanmar.
-	  Among them, the top language is Myanmar (Burmese). 
-	  Myanmar language is based on Mon language.</p> 
-
-
-
-
-
-
-
-
-          
-		  	  <p>There are long history of printing and publishing in Myanmar languages. 
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+		<p id="p1">There are total hunderd languages spoken by the people living in Myanmar.
+		Among them, the top language is Myanmar (Burmese).
+		Myanmar language is based on Mon language
+		  	  There are long history of printing and publishing in Myanmar languages. 
 	  Computerization also has been started long ago.
 	  It is still not sufficient enough to localize basic software into Myanmar languages and 
-	  present in cyberspace.</p>
-		 
-
-
-
-
-
-
-
-
-			  <p>
+	  present in cyberspace.
+		        
           Many people have put effort since long time ago to develop Myanmar Character Codes and Fonts.
 		  This project mainly emphasizes on the necessary cooperation among the developers and local user.
 This project overview the diversify world of writing system and give historical overview on the evaluation 
 of computer usage in Myanmar and Burmese language. The languages spoken by the people living in Myanmar is described. The history of type printing technology in Myanmar is mentioned. The availability of digital technology in Myanmar is mentioned. The availability of internet in Myanmar is mentioned. It also describes about the initiatives and difficulties of Natural Language Processing for Myanmar Language.
-</p>
 
-            <p>
+
+            
          Myanmar is a country having a population of about 57 million people comprising 
 of 135 ethnic groups speaking their own vernacular languages or dialects.
  Among those, Myanmar language being spoken by more than 30 million people
@@ -133,26 +120,22 @@ of 135 ethnic groups speaking their own vernacular languages or dialects.
  language for Myanmar people and our spoken language too, but there is no standard in Myanmar 
  about language tool. There are a lot of fonts such as Zawgyi ,Win, Uni Code, San Myanmar and so on.
 Myanmar language is also spoken by the rest minorities as their second language.
-		</p>
-
-               <p>
+		
         Nowadays, Mobile phones are very useful for everyone to communicate with each other.
 The project named “Myanmar Language Tool” is aimed to Myanmar people, writer and translator. This language can be used to computer.  So, using Myanmar language tool is apparently more profitable for the Myanmar.
  	This project is implemented by Python
 In Python by slowly building and establishing skills through techniques like practice and memorization
 Our project is very useful for Myanmar people.
-			</p>
-      <p>
+			
        To convert the same script written in different Myanmar language font using this application.
 To assist users more easily and conveniently in translation.
 To provide the basic grammar rules or sequence ordering of the Zawgyi, Unicode, and Wincode.
-			</p>
+			
 
         </div>
       </div>
 	  </div>
   </div>
-   
    <footer class="mdl-mega-footer">
 		 <div class="footer-copyright">
 							<div class="container">
@@ -167,11 +150,11 @@ To provide the basic grammar rules or sequence ordering of the Zawgyi, Unicode, 
 							</div>
 						</div> 
 						</footer>
+   
 	</div>
        </main> 
  <script src="{{url_for('static',filename='js/material.min.js')}}" ></script>
 	<script type="text/javascript" src="{{url_for('static',filename='js/materialize.js')}}"></script>
         </div> 
    </body> 
-        </html>
-
+        </html> 
